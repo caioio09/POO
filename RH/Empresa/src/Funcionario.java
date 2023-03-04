@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+
 public abstract class Funcionario {
 
     private String nome;
@@ -19,6 +21,6 @@ public abstract class Funcionario {
         this.codigo = codigo;
     } 
 
-    
+    public void SalarioBase(BigDecimal salarioBase);
 
 }
